@@ -1,5 +1,5 @@
 {
-    "name": "Blockchain/Blockchain",
+    "name": "kiczek/api-v1-client-php",
     "description": "Blockchain API client library",
     "keywords": ["bitcoin", "blockchain"],
     "homepage": "https://github.com/blockchain/api-v1-client-php",
