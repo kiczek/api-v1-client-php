@@ -90,6 +90,10 @@ class Blockchain {
 
     public function post($resource, $data=null) {
         $url = Blockchain::URL;
+        
+        if (!empty($this->service_url)) {
+            $url = $this->service_url;
+        }
 
         if (($resource == "api/v2/create") || (substr($resource, 0, 8) === "merchant")) {
             if ($this->service_url == null) {
